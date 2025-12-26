@@ -297,5 +297,5 @@ router.get("/posts/:id/related", (req, res) => {
 
 // 서버 실행
 app.use("/", router);
-app.listen(10123, () => console.log("Server running on http://localhost:3000"));
+app.listen(3000, () => console.log("Server running on http://localhost:3000"));
 
